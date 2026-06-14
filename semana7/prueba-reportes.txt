@@ -1,0 +1,5 @@
+Cuando consultamos los reportes mediante una petición GET a la ruta http://localhost:3000/reportes, el servidor responde con un código de estado 200 (Éxito) y devuelve el array completo 'reportes' en formato JSON. 
+
+Si previamente enviamos solicitudes POST con datos en el cuerpo de la petición (req.body), el servidor nos devolverá una lista estructurada que contiene todos los reportes acumulados dentro de corchetes '[ ]'. Cada reporte aparece indexado automáticamente con un ID único incremental (id: 1, id: 2, etc.), su tipo y su descripción. 
+
+Si detenemos y reiniciamos el servidor en la consola, al realizar de nuevo el método GET, el servidor responderá con un array vacío '[]', lo que evidencia que la información está alojada de forma transitoria en la memoria RAM del servidor y no en una base de datos persistente.
