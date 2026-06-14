@@ -1,0 +1,3 @@
+
+  "tipo": "Servicios públicos / Alumbrado",
+  "descripcion": "El sector del parque comunitario se encuentra sin iluminación pública debido a un fallo en las tres lámparas principales del poste central, afectando la seguridad de los vecinos en la noche."
