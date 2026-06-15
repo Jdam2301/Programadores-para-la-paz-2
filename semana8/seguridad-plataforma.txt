@@ -1,0 +1,5 @@
+1. No exponer datos personales: Encriptar y limitar la visualización de datos sensibles en la interfaz pública de la comunidad.
+2. Proteger credenciales: Implementar políticas de contraseñas seguras y dobles factores de autenticación para los roles administrativos.
+3. Usar conexiones seguras: Forzar el uso de protocolos HTTPS para encriptar los flujos de información entre el ciudadano y el servidor.
+4. Registrar accesos y auditorías (Trazabilidad): Almacenar un registro oculto de quién ingresa, edita o elimina información crítica del sistema.
+5. Limitar acceso a información sensible: Aplicar el principio de mínimos privilegios para que cada usuario tenga únicamente los permisos correspondientes a su rol asignado.

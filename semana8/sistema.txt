@@ -1,0 +1,6 @@
+Análisis de comandos en Linux:
+1. 'uname -a': Muestra toda la información del sistema operativo y del núcleo (kernel), incluyendo el nombre del sistema, la arquitectura del procesador (por ejemplo, x86_64 o arm), la versión de la compilación y la fecha de actualización del kernel Linux.
+2. 'whoami': Devuelve el nombre exacto del usuario actual que tiene la sesión activa en la terminal y que está ejecutando los procesos en ese instante.
+
+Utilidad en la administración de servidores:
+Conocer estos datos es fundamental cuando se administra una plataforma web o un servidor comunitario, ya que permite verificar si el entorno cuenta con los requisitos de compatibilidad necesarios antes de instalar aplicaciones (como Node.js o Express). Además, ayuda a detectar de inmediato si el kernel requiere parches de seguridad urgentes para prevenir vulnerabilidades de infraestructura y permite confirmar si estamos operando con un usuario básico o con privilegios de administrador (root), lo cual reduce errores críticos de configuración humana.
