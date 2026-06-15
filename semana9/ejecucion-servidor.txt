@@ -1,0 +1,9 @@
+Flujo de ejecución del servidor:
+
+1. ¿Qué ocurre cuando ejecutas 'node server.js'?: El entorno de Node.js interpreta el archivo, asigna memoria para nuestra aplicación y levanta un proceso persistente en segundo plano que abre una vía de comunicación con la red local a través del puerto 3000, manteniendo la terminal ocupada e interactiva.
+2. ¿Qué mensaje aparece en la terminal?: Se despliega la cadena de texto de confirmación definida en el callback de escucha: "Servidor ejecutándose en puerto 3000".
+3. ¿Qué sucede cuando visitas la ruta '/estado'?: El navegador envía una solicitud HTTP de tipo GET a la dirección asignada, la lógica interna de Express procesa el requerimiento en el backend y devuelve inmediatamente un estado 200 de éxito junto con la estructura JSON:
+{
+  "estado": "Servidor funcionando",
+  "servicio": "API comunitaria"
+}
